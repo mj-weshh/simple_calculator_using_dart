@@ -32,9 +32,12 @@ This is a basic calculator program written in Dart. It takes user input for two 
 4. Follow the prompts to enter the first number, second number, and the desired operation.
 
 ### Input
-    The program supports decimal input for more accurate calculations.
+
+The program supports decimal input for more accurate calculations.
 
 ### Error Handling
-    Division by zero and modulus with zero are handled, and appropriate error messages are displayed.
+
+Division by zero and modulus with zero are handled, and appropriate error messages are displayed.
 ### Contributing
-    Feel free to contribute to the project by submitting pull requests or reporting issues. Your feedback is valuable!
+
+Feel free to contribute to the project by submitting pull requests or reporting issues. Your feedback is valuable!
