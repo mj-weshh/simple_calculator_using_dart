@@ -4,27 +4,32 @@ dynamic calculate(num1, num2, operator_sign) {
   if (operator_sign == '+') {
     var sum = num1 + num2;
     print('Sum is: $sum');
-  } else if (operator_sign == '-') {
+  } 
+  else if (operator_sign == '-') {
     var difference = num1 - num2;
     print('Difference is: $difference');
-  } else if (operator_sign == '*') {
+  } 
+  else if (operator_sign == '*') {
     var product = num1 * num2;
     print('Product is: $product');
-  } else if (operator_sign == '/') {
+  } 
+  else if (operator_sign == '/') {
     if (num2 != 0) {
       var quotient = num1 / num2;
       print('Quotient is: $quotient');
     } else {
       print("Error: Cannot divide by zero!");
     }
-  } else if (operator_sign == '%') {
+  } 
+  else if (operator_sign == '%') {
     if (num2 != 0) {
       var modulus = num1 % num2;
       print('Modulus is: $modulus');
     } else {
       print("Error: Cannot calculate modulus with zero!");
     }
-  } else {
+  } 
+  else {
     print("Invalid operator!!");
   }
 }
