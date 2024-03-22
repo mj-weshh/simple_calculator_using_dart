@@ -37,15 +37,8 @@ dynamic calculate(num1, num2, operator_sign) {
 double first_digit_input() {
   stdout.writeln("Enter the first digit: ");
   var first_digit = double.parse(stdin.readLineSync()!);
-  print("Your first digit is $first_digit");
+  //print("Your first digit is $first_digit");
   return first_digit;
-}
-
-double second_digit_input() {
-  stdout.writeln("Enter the second digit: ");
-  var second_digit = double.parse(stdin.readLineSync()!);
-  print("Your second digit is $second_digit");
-  return second_digit;
 }
 
 String operator_sign_input() {
@@ -54,10 +47,18 @@ String operator_sign_input() {
   return oper;
 }
 
+double second_digit_input() {
+  stdout.writeln("Enter the second digit: ");
+  var second_digit = double.parse(stdin.readLineSync()!);
+  //print("Your second digit is $second_digit");
+  return second_digit;
+}
+
+
 void main() {
   var one = first_digit_input();
-  var two = second_digit_input();
   String operator = operator_sign_input();
+  var two = second_digit_input();
 
   calculate(one, two, operator);
 }
